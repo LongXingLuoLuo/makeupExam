@@ -128,6 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="函数.cpp" />
+    <ClCompile Include="字符串.cpp" />
+    <ClCompile Include="常用函数.cpp" />
+    <ClCompile Include="指针.cpp" />
+    <ClCompile Include="类.cpp" />
     <ClCompile Include="输入输出.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

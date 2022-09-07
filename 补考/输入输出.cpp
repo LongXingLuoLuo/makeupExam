@@ -25,14 +25,18 @@ void test() {
 	}
 	cout << str1;
 }
-int main() {
-	char source[100] = {"one"};
+void showStrcpy() {
+	char source[100] = { "one" };
 	char target[100];
 	// 如果strcpy有提醒，那么推荐用strcpy_s
 	// strcpy_s(target, source);
 	strcpy(target, source);
-	cout << "source is " << source <<endl;
+	cout << "source is " << source << endl;
 	cout << "after strcpy " << endl;
-	cout << "target is " << target<<endl;
+	cout << "target is " << target << endl;
+}
+int one() {
+	char a = 0;
+	cout << sizeof(a);
 	return 0;
 }

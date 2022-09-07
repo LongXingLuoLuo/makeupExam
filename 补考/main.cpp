@@ -13,7 +13,7 @@ private:
 	char name[50];
 };
 
-int two() 
+int three() 
 {
 	return 0;
 }
